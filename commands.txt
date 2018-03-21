@@ -1,0 +1,87 @@
+- already installed, GitBash.
+
+
+ - 163048@lab200ab-ws28 MINGW64 ~
+   $ mkdir lab1
+   $ cd lab1
+   $ git init
+Initialized empty Git repository in C:/Users/163048/lab1/.git/
+
+ - $ notepad l1.txt
+
+
+ - done (Petar Boshkoski 163048)
+
+
+ - $ git add l1.txt
+ - $ git commit -am "Initial commit"
+
+
+ - $ notepad l1.txt (then edit)
+
+
+163048@lab200ab-ws28 MINGW64 ~/lab1 (master)
+ - $ git add l1.txt
+163048@lab200ab-ws28 MINGW64 ~/lab1 (master)
+ - $ git commit -am "modify l1.txt"
+
+
+ - done (https://github.com/PetarBoshkoski?tab=repositories)
+
+
+ - $ git remote add origin https://github.com/PetarBoshkoski/origin
+
+
+ - $ git push https://github.com/PetarBoshkoski/origin
+
+?? git
+ - $ git status
+
+ - $ git log --oneline
+00cb22e (HEAD -> master) modify l1.txt
+
+163048@lab200ab-ws28 MINGW64 ~/lab1 (master)
+ - $ git revert 00cb22e
+
+163048@lab200ab-ws28 MINGW64 ~/lab1 (master)
+ - $ git stash save
+
+ - $ git status
+On branch master
+nothing to commit, working tree clean
+
+ - $ git branch logging
+
+
+ - $ git checkout logging
+Switched to branch 'logging'
+ - $ git log
+commit 00cb22e0f7644e9126fc0e97db443f24cd0b472e (HEAD -> logging, master)
+Author: petar.boshkoski@students.finki.ukim.mk <petar.boshkoski@students.finki.ukim.mk>
+Date:   Wed Mar 21 17:18:00 2018 +0100
+
+    modify l1.txt
+
+commit 24c36ee5fbb19b5d263fb220ed5c929b58cdccf3
+
+
+    Initial commit
+
+163048@lab200ab-ws28 MINGW64 ~/lab1 (logging)
+ - $ notepad log.txt
+ - $ git add .
+ - $ git commit -am "Adding log.txt file"
+
+
+ - $ git push -u origin logging
+
+$ git checkout master
+Switched to branch 'master'
+
+ - $ git merge logging
+
+ - $ git push origin master
+To https://github.com/PetarBoshkoski/origin
+
+
+ - $ git checkout -b allcomands
