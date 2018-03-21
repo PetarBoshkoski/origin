@@ -1,0 +1,11 @@
+commit 00cb22e0f7644e9126fc0e97db443f24cd0b472e (HEAD -> logging, master)
+Author: petar.boshkoski@students.finki.ukim.mk <petar.boshkoski@students.finki.ukim.mk>
+Date:   Wed Mar 21 17:18:00 2018 +0100
+
+    modify l1.txt
+
+commit 24c36ee5fbb19b5d263fb220ed5c929b58cdccf3
+Author: petar.boshkoski@students.finki.ukim.mk <petar.boshkoski@students.finki.ukim.mk>
+Date:   Wed Mar 21 17:15:00 2018 +0100
+
+    Initial commit
